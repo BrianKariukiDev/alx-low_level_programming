@@ -6,9 +6,11 @@
  */
 int main(void)
 {
-	for (char c = "a", c <= "z", c++)
+	int i;
+	char alphabet[26] = "abcdefghijklmnopqrstuvwxyz";
+	for (i = 0; i <= 26; i++)
 	{
-		putchar(c);
+		putchar (alphabet[i]);
 	}
 	return (0);
 }
