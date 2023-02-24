@@ -4,6 +4,7 @@
  * main-a program to output a-z
  * Return: 0(Success)
  */
+
 int main(void)
 {
 	int i;
